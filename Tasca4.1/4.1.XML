@@ -1,1 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd">
 
+<cataleg>
+    <single codi="S001">
+        <titol>XULOS</titol>
+        <descripcio>Canço de pop</descripcio>
+        <pais>Espanya</pais>
+        <idioma>Espanyol</idioma>
+        <genere>Pop</genere>
+        <grup>Los Diozes</grup>
+        <membres>
+            <membre sexe="home">
+                <nom>IlloJuan</nom>
+            </membre>
+            <membre sexe="dona">
+                <nom>Foyone</nom>
+            </membre>
+        </membres>
+        <durada>3</durada>
+    </single>
+
+    <album codi="A001">
+        <titol>Hotel Maligno</titol>
+        <descripcio>Àlbum conceptual de l'artista IlloJuan</descripcio>
+        <pais>Espanya</pais>
+        <idioma>Castellà</idioma>
+        <genere>Pop</genere>
+
+        <grup>IlloJuan</grup>
+
+        <membres>
+            <membre sexe="home">
+                <nom>IlloJuan</nom>
+            </membre>
+        </membres>
+
+        <numero_cançons>3</numero_cançons>
+
+        <titols_cançons>
+            <canço numero="1">
+                <titol_canço>Hotel Maligno</titol_canço>
+                <durada_canço>3.12</durada_canço>
+            </canço>
+
+            <canço numero="2">
+                <titol_canço>Habitación 404</titol_canço>
+                <durada_canço>2.58</durada_canço>
+            </canço>
+
+            <canço numero="3">
+                <titol_canço>Salida de emergencia</titol_canço>
+                <durada_canço>3.35</durada_canço>
+            </canço>
+        </titols_cançons>
+
+    </album>
+
+</cataleg>
